@@ -1,0 +1,39 @@
+.card {
+  flex-basis: calc(25% - 20px);
+  margin: 0 10px 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+.cardImg {
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+}
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+.productName {
+  height: 50px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.priceSize {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.priceSize .price {
+  font-weight: 700;
+}
+ul.size {
+  list-style-type: none;
+}
+ul.size li {
+  display: inline-block;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+}

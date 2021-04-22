@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+input {
+  display: block;
+  padding: 5px;
+}
+input[type="text"] {
+  width: 100%;
+  font-size: 0.9rem;
+}
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+button.primary {
+  color: #fff;
+  background: #712153;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:active {
+  color: #000;
+}
