@@ -1,0 +1,15 @@
+@import '../../constants/variable.css';
+div.logo{
+    span {
+        font-size: 2rem;
+        &.cine{
+            color: var(--white);
+        }
+        &.flix{
+            color: var(--green);
+            font-weight: 600;
+        }
+    }
+    
+
+}

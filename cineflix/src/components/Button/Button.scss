@@ -1,0 +1,17 @@
+@import "../../constants/variable.css";
+button {
+  color: var(--white);
+  outline: none;
+  border: none;
+  max-width: 200px;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &.yellow {
+    background: var(--yellow);
+  }
+  &.violet {
+    background: var(--violet);
+  }
+}

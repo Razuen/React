@@ -1,0 +1,10 @@
+@import "../../constants/variable.css";
+.lottery {
+  background-color: var(--green);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  h2 {
+    margin-right: 40px;
+  }
+}

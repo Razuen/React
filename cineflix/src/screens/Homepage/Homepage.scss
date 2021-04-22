@@ -1,0 +1,19 @@
+@import "../../constants/variable.css";
+.homepage {
+  height: 100vh;
+  padding: 20px 5%;
+  &.red {
+    background-color: var(--red);
+  }
+  &.black {
+    background-color: var(--black);
+  }
+  &.violet {
+    background-color: var(--violet);
+  }
+  section {
+    display: flex;
+    flex-basis: calc(33.33% - 20px);
+    justify-content: space-between;
+  }
+}
